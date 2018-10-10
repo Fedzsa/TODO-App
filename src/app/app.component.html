@@ -1,0 +1,17 @@
+<header class="container-fluid shadow-lg">
+    <div class="row align-items-center mr-0 ml-0">
+        <div class="col">
+            <h1>{{ title }}</h1>
+        </div>
+
+        <div class="col">
+            <button class="btn btn-success w-100" (click)="createMsg()">+</button>
+        </div>
+
+        <div class="col">
+            <input class="form-control float-right" type="text" value="Search...">
+        </div>
+    </div>
+</header>
+
+<router-outlet></router-outlet>

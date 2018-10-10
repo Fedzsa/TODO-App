@@ -1,0 +1,17 @@
+header {
+    background-color: #1976d2;
+    color: white;
+}
+
+header>* {
+    padding: 5px;
+}
+
+header h1 {
+    text-shadow: 2px 3px 10px rgb(49, 49, 49);
+}
+
+header input {
+    float: right;
+    width: 200px;
+}

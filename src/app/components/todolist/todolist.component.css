@@ -1,0 +1,29 @@
+.todolist {
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 5px;
+    padding: 0;
+    background-color: white;
+}
+
+ul li h3 {
+    margin: 5px;
+}
+
+ul li p {
+    padding: 10px;
+}
+
+.head {
+    background-color: #1976d2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    text-shadow: 2px 3px 10px rgb(49, 49, 49);
+}
